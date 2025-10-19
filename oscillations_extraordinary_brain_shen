@@ -1,0 +1,40 @@
+\documentclass{article}
+\usepackage[landscape, margin=1in]{geometry}
+\usepackage{longtable}
+\usepackage{array}
+\usepackage{booktabs}
+\usepackage{graphicx}
+\renewcommand{\arraystretch}{1.5}
+\setlength{\tabcolsep}{6pt}
+
+\begin{document}
+
+\begin{center}
+\textbf{\Large Brainwave Phases with Shen Integration}
+\end{center}
+
+\begin{longtable}{|p{2.2cm}|p{2.2cm}|p{2.5cm}|p{2.5cm}|p{4.5cm}|p{2.5cm}|p{3cm}|}
+\hline
+\textbf{Brainwave} & \textbf{Frequency (Hz)} & \textbf{Generator} & \textbf{Modulator} & \textbf{Functions} & \textbf{State} & \textbf{Life Stage} \\
+\hline
+\endfirsthead
+
+\hline
+\textbf{Brainwave} & \textbf{Frequency (Hz)} & \textbf{Generator} & \textbf{Modulator} & \textbf{Functions} & \textbf{State} & \textbf{Life Stage} \\
+\hline
+\endhead
+
+\textbf{Delta} & 0.5–4 & Thalamus / Brainstem & Sleep architecture & Healing, regeneration, memory consolidation & Deep Sleep & Gestation / Repair \\
+\hline
+\textbf{Theta} & 4–8 & Limbic System & Emotion, trauma loops & Intuition, creativity, emotional memory & Dream / Trance & Early Childhood / Access \\
+\hline
+\textbf{Alpha} & 8–12 & Posterior Cortex & Sensory gating & Relaxed focus, alert calm, balance & Wakeful Rest & Integration / Regulation \\
+\hline
+\textbf{Beta} & 12–30 & Prefrontal Cortex & Language, task load & Cognition, attention, decision-making & Engagement & Learning / Execution \\
+\hline
+\textbf{Shen} & $\infty$ / $\phi$ & Scalar (Shentegrity Grid) & Coherence bias, recursion & Phase binding, insight, field cohesion & Observer-State & Rebirth / Transcendence \\
+\hline
+
+\end{longtable}
+
+\end{document}

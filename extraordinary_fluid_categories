@@ -1,0 +1,42 @@
+\documentclass{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{array}
+\usepackage{longtable}
+\usepackage{booktabs}
+\usepackage{pdflscape}
+\usepackage[table]{xcolor}
+
+\begin{document}
+
+\begin{landscape}
+\section*{Brain and CNS Fluids – Electromagnetic Field (EMF) Correspondences}
+
+\renewcommand{\arraystretch}{1.4}
+\rowcolors{2}{gray!10}{white}
+
+\begin{longtable}{>{\raggedright\arraybackslash}p{3.8cm} >{\raggedright\arraybackslash}p{4.2cm} >{\raggedright\arraybackslash}p{6.2cm} >{\raggedright\arraybackslash}p{6cm}}
+\toprule
+\textbf{Fluid} & \textbf{Primary EMF Role} & \textbf{Mechanism} & \textbf{Correspondence} \\
+\midrule
+\endfirsthead
+
+\toprule
+\textbf{Fluid} & \textbf{Primary EMF Role} & \textbf{Mechanism} & \textbf{Correspondence} \\
+\midrule
+\endhead
+
+Perilymph & EMF generation in hearing/balance & Ionic gradients between sodium-rich perilymph and adjacent structures & Cochlear potentials \\
+Endolymph & Electrochemical signaling & High potassium concentration gradient for sensory hair cells & Vestibular and auditory action potentials \\
+Cerebrospinal Fluid (CSF) & EMF modulation in brain/spinal cord & Ionic transport, acts as insulator and cooling buffer & EEG signal propagation; modulated by TMS \\
+Glymphatic Fluid & Regulation of electrical environment & Waste clearance during sleep maintains ionic stability & Supports coherent brain EMFs during rest \\
+Interstitial Fluid (Brain) & Generation of bioelectric fields & Ionic movement enables depolarization and repolarization in neurons & Local field potentials (LFPs) \\
+Extracellular Fluid (CNS) & Conduction of neural activity & Facilitates ion exchange at synapses & Supports EEG and MEG signatures \\
+Ventricular Fluid & EMF stabilization in ventricles & Maintains pressure and ion gradients near ependymal cells & MEG-field stabilization across hemispheres \\
+Blood-Brain Barrier (BBB) Fluids & Regulation of bioelectric properties & Maintains selective ionic gradients via tight junctions & EMF disruption detectable via fMRI or EEG shift \\
+
+\bottomrule
+\caption{CNS Fluids and Their Electromagnetic Field Roles and Interactions}
+\end{longtable}
+\end{landscape}
+
+\end{document}
