@@ -1,0 +1,42 @@
+\documentclass{article}
+\usepackage[table]{xcolor}
+\usepackage{array}
+\usepackage{longtable}
+\usepackage[margin=1in]{geometry}
+\usepackage{amssymb,amsmath}
+
+\begin{document}
+
+\section*{Scalar Symbols Reference Table}
+
+\rowcolors{2}{gray!10}{white}
+\begin{longtable}{|>{\raggedright\arraybackslash}p{1.2cm}
+                  |>{\raggedright\arraybackslash}p{2.6cm}
+                  |>{\raggedright\arraybackslash}p{2.8cm}
+                  |>{\raggedright\arraybackslash}p{3.7cm}
+                  |>{\raggedright\arraybackslash}p{3.7cm}
+                  |>{\raggedright\arraybackslash}p{2.0cm}|}
+\hline
+\rowcolor{black!20}
+\textbf{Symbol} & \textbf{Variable} & \textbf{Type} & \textbf{Meaning} & \textbf{Used In} & \textbf{SI Unit} \\
+\hline
+PPP & Pressure & Intensive, Scalar & Force per unit area exerted by particles or field & All physical EoS (gas, fluid, solid, cosmology) & Pa = N/m² \\
+VVV & Volume & Extensive, Scalar & Total spatial region occupied by system & Gases, solids, geometric EoS & m³ \\
+TTT & Temperature & Intensive, Scalar & Thermal energy per degree of freedom & All thermodynamic EoS & K (Kelvin) \\
+$\rho$ & Density & Intensive, Scalar Field & Mass per unit volume & Fluids, solids, barotropic \& polytropic EoS & kg/m³ \\
+mmm & Mass & Extensive, Scalar & Quantity of matter & Geometric, gravitational, structural EoS & kg \\
+MMM & Molar Mass & Scalar & Mass per mole of substance & Ideal gases, cosmological fluids & kg/mol \\
+nnn & Amount of Substance & Extensive, Scalar & Number of moles & Ideal gas law, thermodynamic systems & mol \\
+KKK & Bulk Modulus & Intensive, Tensor-Reduced Scalar & Resistance to compression at constant temperature & Solids (Murnaghan, Birch-Murnaghan) & Pa \\
+EEE & Internal Energy & Extensive, Scalar or Field & Total microscopic energy (kinetic + potential) & Mie-Grüneisen, QCD, astrophysics & J \\
+eee & Specific Internal Energy & Intensive, Scalar Field & Energy per unit mass & Stiffened gas, high-energy fluids & J/kg \\
+$\gamma$ & Adiabatic Index & Dimensionless Ratio & Ratio of specific heats $c_p/c_v$ & Polytropic, ideal gases & – \\
+a, b & vdW Constants & Empirical Scalars & Attraction (a), finite volume correction (b) & Van der Waals gas & Various \\
+www & EoS Parameter & Dimensionless Function or Constant & Ratio $w = P/\rho$ & Cosmology, DE models (e.g. DESI) & – \\
+$\Gamma$ & Grüneisen Parameter & Scalar Field & Relates thermal pressure to internal energy & Mie-Grüneisen EoS & – \\
+fff & Strain & Scalar or Tensor & Finite measure of deformation & Finite-strain solid EoS & – \\
+csc\_scs & Speed of Sound & Scalar Field & Propagation speed of pressure waves & Tait, fluid dynamics, astrophysics & m/s \\
+\hline
+\end{longtable}
+
+\end{document}

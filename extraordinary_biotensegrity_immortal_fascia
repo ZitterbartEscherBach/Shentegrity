@@ -1,0 +1,34 @@
+\documentclass{article}
+\usepackage[table]{xcolor}
+\usepackage{array}
+\usepackage{geometry}
+\usepackage{longtable}
+\usepackage{lscape}
+
+% Adjust margins for landscape and fitting
+\geometry{margin=0.6in}
+
+\begin{document}
+\begin{landscape}
+
+\section*{Immortals – Parsed Mapping Table (Landscape)}
+
+\rowcolors{2}{gray!10}{white}
+\begin{longtable}{|p{2cm}|p{2.3cm}|p{2.3cm}|p{2.3cm}|p{2.3cm}|p{2.3cm}|p{2.3cm}|p{2.3cm}|p{2.3cm}|}
+\hline
+\textbf{Attribute} & \textbf{☰ Qian} & \textbf{☷ Kun} & \textbf{☳ Zhen} & \textbf{☴ Xun} & \textbf{☲ Li} & \textbf{☵ Kan} & \textbf{☱ Dui} & \textbf{☶ Gen} \\
+\hline
+\textbf{Element} & Metal & Earth & Wood & Wood & Fire & Water & Metal & Earth \\
+\textbf{Function} & Governs Yang energy & Governs Yin energy & Links all Yang channels & Encircles \& stabilizes channels & Regulates Qi and blood & Links all Yin channels & Balances Yang movement & Balances Yin movement \\
+\textbf{Immortal} & Lü Dongbin & He Xiangu & Zhang Guolao & Cao Guojiu & Zhongli Quan & Lan Caihe & Han Xiangzi & Li Tieguai \\
+\textbf{Vessel} & Governing Vessel & Conception Vessel & Yang Linking Vessel & Belt Vessel & Penetrating Vessel & Yin Linking Vessel & Yang Heel Vessel & Yin Heel Vessel \\
+\textbf{Tool} & Sword of Wisdom & Lotus Flower & Fish-Drum & Jade Tablet & Fan & Flower Basket & Flute & Iron Crutch \& Gourd \\
+\textbf{Fascia} & Back Line & Front Line & Lateral Line & Core Stability \& Containment & Midline Core \& Circulation & Fascia of Emotional Containment & Outer Fascial Chains & Deep Networks of Rest \& Recovery \\
+\textbf{Lineage} & The Pillar of Inheritance & The First Embrace & The First Shock of Awakening & The Binding Thread of Inheritance & The Blood River of Ancestry & The Vessel of Emotional Inheritance & The Vessel of Externalized Action & The Vessel of Deep Stillness \\
+\textbf{Power (Boost)} & Clarity, Discernment & Nurturing, Adaptability & Innovation, Quick Response & Structure, Boundaries & Healing, Regeneration & Emotional Depth, Reflection & Expression, Leadership & Stillness, Dreaming \\
+\textbf{Role} & Scholar, Inner Alchemy & Immortal Maiden, Health \& Vitality & Mystic Alchemist, Innovation & Noble Patron, Discipline & General-Turned-Healer, Transformation & Androgynous Wanderer, Emotional Freedom & Daoist Musician, Harmony & Iron-Crutch Wanderer, Resilience \\
+\hline
+\end{longtable}
+
+\end{landscape}
+\end{document}

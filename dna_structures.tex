@@ -1,0 +1,61 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{geometry}
+\geometry{margin=1in}
+\usepackage{longtable}
+\usepackage{pdflscape}
+\usepackage{booktabs}
+
+\begin{document}
+
+\begin{landscape}
+
+\section*{DNA Structural Forms by Complexity Rank}
+
+\renewcommand{\arraystretch}{1.3}
+
+\begin{longtable}{|p{2.2cm}|p{2.5cm}|p{2.2cm}|p{2.2cm}|p{4.5cm}|p{5.5cm}|}
+\hline
+\textbf{Rank} & 
+\textbf{DNA Form} & 
+\textbf{Handedness} & 
+\textbf{Base Pairs per Turn} & 
+\textbf{Key Features} & 
+\textbf{Biological Relevance} \\
+\hline
+\endfirsthead
+
+\hline
+\textbf{Rank} & 
+\textbf{DNA Form} & 
+\textbf{Handedness} & 
+\textbf{Base Pairs per Turn} & 
+\textbf{Key Features} & 
+\textbf{Biological Relevance} \\
+\hline
+\endhead
+
+1 (Least Complex) & B-DNA & Right & ~10.5 & Canonical Watson-Crick DNA, most stable & Most common DNA form in cells \\
+\hline
+2 & A-DNA & Right & ~11 & More compact, deep major groove & Found in low-hydration conditions and RNA-DNA hybrids \\
+\hline
+3 & C-DNA & Right & ~9.3–9.6 & Similar to B-DNA but with minor structural changes & Observed in low-humidity environments \\
+\hline
+4 & D-DNA & Right & ~8 & Wider, lacks guanine, irregular helix & Seen in some synthetic sequences \\
+\hline
+5 & E-DNA & Right & Variable & Extended form of B-DNA, slightly overstretched & Observed in experimental conditions \\
+\hline
+6 & Z-DNA & Left & ~12 & Zigzag backbone, GC-rich regions, left-handed helix & Involved in gene regulation and immune response \\
+\hline
+7 & S-DNA & Right & Variable & Super-stretched DNA under tension & Studied in biophysics, DNA elasticity research \\
+\hline
+8 & G-DNA (G-Quadruplex DNA) & Variable & Variable & Stacked G-tetrads, stabilized by Hoogsteen pairing & Found in telomeres, linked to cancer and aging \\
+\hline
+9 (Most Complex) & P-DNA & Parallel-stranded & Variable & Highly stretched, bases flipped outward & Rare, seen in high-stretch conditions \\
+\hline
+
+\end{longtable}
+
+\end{landscape}
+
+\end{document}
